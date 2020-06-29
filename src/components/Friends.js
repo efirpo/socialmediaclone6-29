@@ -14,6 +14,13 @@ const masterRequestList = [
   }
 ];
 
+const postAlign = {
+  display: 'flex',
+  flexDirection: 'row',
+  flexWrap: 'nowrap',
+  justifyContent: 'space-evenly',
+}
+
 function Friends() {
   return (
     <React.Fragment>
@@ -26,7 +33,7 @@ function Friends() {
         </div>
         {masterRequestList.map((request, index) =>
           <React.Fragment>
-            <div class="post-align">
+            <div class="post-align" style={postAlign}>
               <div class="request-avatar col-sm-6">
                 <Avatar />
               </div>

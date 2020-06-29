@@ -14,26 +14,11 @@ code {
     monospace;
 }
 
-.header-inputs{
-  height: 30px;
-  border-radius:25px;
-  border: 3px solid #69a9f0;
+
+#tweet {
+  text-align: center;
 }
 
-#header {
-  width: 70%;
-  /* margin-top: 20%; */
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-#body {
-  width: 70%;
-  margin: 1% auto;
-  display:flex;
-  justify-content: space-between;
-}
 .request-list {
   display: flex;
   flex-direction:column;
@@ -42,22 +27,9 @@ code {
   border: 1px solid #666666;
   flex-grow:2;
 }
-.nav-btn {
-  border: 1px solid #666666;
-  color: #666666;
-  height: 100%;
-  width: 20%;
-  font-size: 1.1vw;
-}
 
-#navigation-tabs {
-display: flex;
-flex-grow:3;
-}
-#tweet {
-  text-align:center;
-}
-.feed-input {
+
+/* .feed-input {
   text-align: left;
   width: 70%;
   height: 40px;
@@ -73,62 +45,24 @@ flex-grow:3;
   display: flex;
   flex-direction:column;
   justify-content:flex-start;
-  /* padding: 1%; */
+  padding: 1%;
   border: 1px solid #666666;
   flex-grow: 3;
   margin: 0 2%;
-}
-
-
-#profile {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  /* border: 1px solid #666666; */
-  flex-grow:1;
-  text-align: center;
-}
-
-#photo {
-  border:1px solid #666666;
-  display: flex;
-  flex-direction: column;
-  flex-grow:1;
-  margin-bottom:5%;
-} 
-#bg-photo {
-  background-color: #69a9f0;
-  color: #69a9f0;
-  height:50%;
-}
-#self-photo {
-  margin-left: 2%;
-  margin-top:5%;
-  justify-self: center;
-  position: absolute;
-
-}
-#name {
-  display: inline;
-}
-
-#about-me {
-border: 1px solid #666666;
-flex-grow:1;
-}
+} */
 
 .avatar {
   width: 4vw;
   height: auto;
 }
 
-.avatar-feed {
+/* .avatar-feed {
   float: left;
   width: auto;
   height: auto;
   margin: 1%;
   margin-left:3%;
-}
+} */
 
 #main-avatar {
   width: 9vw;
@@ -136,12 +70,12 @@ flex-grow:1;
   border: 3px solid #FFFFFF;
 }
 
-.post-item {
+/* .post-item {
   text-align: center;
   display: inline;
   margin: 2%;
   flex-direction: column;
-}
+} */
 
 .profile-pic {
   margin: auto 0;
@@ -162,12 +96,12 @@ flex-grow:1;
   flex-direction: column;
 }
 
-.post-align {
+/* .post-align {
 display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
 justify-content: space-evenly;
-}
+} */
 
 .request-header {
 text-align: center;
