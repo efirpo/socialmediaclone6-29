@@ -1,11 +1,11 @@
 import React from 'react';
 
-function AboutMe() {
+function Friends() {
   return (
     <div>
-      <p>BEEEEEP</p>
+      <p>BOOOOP</p>
     </div>
   );
 }
 
-export default AboutMe;
+export default Friends;

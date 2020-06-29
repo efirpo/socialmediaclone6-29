@@ -38,8 +38,7 @@ function PostList() {
           body={post.body}
           key={index}
         />
-        <hr />
-    )}
+      )}
     </React.Fragment>
   );
 }

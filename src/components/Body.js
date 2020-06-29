@@ -1,5 +1,8 @@
 import React from 'react';
-import NavigationTabs from './NavigationTabs';
+import Profile from './Profile';
+import Feed from './Feed';
+import Friends from './Friends';
+
 function Body() {
   return (
     <React.Fragment>

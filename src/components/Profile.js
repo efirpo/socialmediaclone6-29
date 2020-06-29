@@ -6,9 +6,9 @@ import Photo from './Photo';
 function Profile() {
   return (
     <React.Fragment>
-      <div id="profie">
-        <AboutMe />
+      <div id="profile">
         <Photo />
+        <AboutMe />
       </div>
     </React.Fragment>
   )
