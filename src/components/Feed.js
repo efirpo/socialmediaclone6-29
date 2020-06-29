@@ -5,19 +5,19 @@ import Avatar from './Avatar';
 const masterPostList = [
   {
     title: 'Title',
-    post: 'Hey this is great!'
+    body: 'Hey this is great!'
   },
   {
     title: 'Title',
-    post: 'Look at us.'
+    body: 'Look at us.'
   },
   {
     title: 'Title',
-    post: "who'd a thought."
+    body: "who'd a thought."
   },
   {
     title: 'Title',
-    post: 'not me.'
+    body: 'not me.'
   }
 ];
 
@@ -25,20 +25,33 @@ const masterPostList = [
 function PostList() {
   return (
     <React.Fragment>
-      <div class="avatar-feed">
-        <Avatar />
+      <div id="feed">
+        <form class="input-form">
+          <input class="feed-input" type='text' name='post' placeholder="What's happening?" />
+        </form>
+        <div class="lines">
+          <hr />
+        </div>
+        {masterPostList.map((post, index) =>
+          <React.Fragment>
+            <div class="post-align">
+              <div class="avatar-feed col-sm-6">
+                <Avatar />
+              </div>
+              <div class="post-item col-sm-6">
+                <Post
+                  title={post.title}
+                  body={post.body}
+                  key={index}
+                />
+              </div>
+            </div>
+            <div class="lines">
+              <hr />
+            </div>
+          </React.Fragment>
+        )}
       </div>
-      <form>
-        <input class="feed-input" type='text' name='post' placeholder="What's happening?" />
-      </form>
-      <hr />
-      {masterPostList.map((post, index) =>
-        <Post
-          title={post.title}
-          body={post.body}
-          key={index}
-        />
-      )}
     </React.Fragment>
   );
 }

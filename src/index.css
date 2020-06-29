@@ -1,10 +1,12 @@
 body {
-  margin: 0 auto;
+  margin: 10% auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* font-size: 100%; */
+  
 }
 
 code {
@@ -13,12 +15,14 @@ code {
 }
 
 .header-inputs{
+  height: 30px;
   border-radius:25px;
-  border-color: #006cff;
+  border: 3px solid #69a9f0;
 }
 
 #header {
   width: 70%;
+  /* margin-top: 20%; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -26,19 +30,145 @@ code {
 
 #body {
   width: 70%;
-  margin: 0auto;
+  margin: 1% auto;
   display:flex;
   justify-content: space-between;
+}
+.request-list {
+  display: flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  padding: 1%;
+  border: 1px solid #666666;
+  flex-grow:2;
+}
+.nav-btn {
+  border: 1px solid #666666;
+  color: #666666;
+  height: 100%;
+  width: 20%;
+  font-size: 1.1vw;
+}
+
+#navigation-tabs {
+display: flex;
+flex-grow:3;
+}
+#tweet {
+  text-align:center;
+}
+.feed-input {
+  text-align: left;
+  width: 70%;
+  height: 40px;
+  border: 1px solid #69a9f0;
+}
+.input-form {
+  text-align: right;
+  background-color: #69a9f0;
+  padding: 3%;
 }
 
 #feed {
   display: flex;
   flex-direction:column;
   justify-content:flex-start;
+  /* padding: 1%; */
+  border: 1px solid #666666;
+  flex-grow: 3;
+  margin: 0 2%;
 }
+
 
 #profile {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  /* border: 1px solid #666666; */
+  flex-grow:1;
+  text-align: center;
+}
+
+#photo {
+  border:1px solid #666666;
+  display: flex;
+  flex-direction: column;
+  flex-grow:1;
+  margin-bottom:5%;
+} 
+#bg-photo {
+  background-color: #69a9f0;
+  color: #69a9f0;
+  height:50%;
+}
+#self-photo {
+  margin-left: 2%;
+  margin-top:5%;
+  justify-self: center;
+  position: absolute;
+
+}
+#name {
+  display: inline;
+}
+
+#about-me {
+border: 1px solid #666666;
+flex-grow:1;
+}
+
+.avatar {
+  width: 4vw;
+  height: auto;
+}
+
+.avatar-feed {
+  float: left;
+  width: auto;
+  height: auto;
+  margin: 1%;
+  margin-left:3%;
+}
+
+#main-avatar {
+  width: 9vw;
+  height: auto;
+  border: 3px solid #FFFFFF;
+}
+
+.post-item {
+  text-align: center;
+  display: inline;
+  margin: 2%;
+  flex-direction: column;
+}
+
+.profile-pic {
+  margin: auto 0;
+}
+
+.request-avatar {
+  float: left;
+  width: 100;
+  height: 100;
+  margin: 1%;
+  margin-left:3%;
+}
+
+.request-item {
+  text-align: center;
+  display: inline;
+  margin: 2%;
+  flex-direction: column;
+}
+
+.post-align {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+}
+
+.request-header {
+text-align: center;
 }

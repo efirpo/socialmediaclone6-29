@@ -11,7 +11,7 @@ function Profile() {
         <AboutMe />
       </div>
     </React.Fragment>
-  )
+  );
 }
 
 export default Profile;

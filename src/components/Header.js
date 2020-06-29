@@ -9,7 +9,7 @@ function Header() {
         <div id="search-tweet">
           <form>
             <input class="header-inputs" type="text" name="search" placeholder="Search.." />
-            <input class="header-inputs" type="text" name="tweet" placeholder="tweet" />
+            <input class="header-inputs" id="tweet" type="text" name="tweet" placeholder="Tweet" />
           </form>
         </div>
       </div>

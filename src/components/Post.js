@@ -6,7 +6,6 @@ function Post(props) {
     <React.Fragment>
       <strong><p>{props.title}</p></strong>
       <p>{props.body}</p>
-      <hr />
     </React.Fragment>
   );
 }
